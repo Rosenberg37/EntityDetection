@@ -1,0 +1,13 @@
+/.idea/
+/cache/
+/result/
+/code.iml
+/data/conll2003/precessed/test.json
+/data/conll2003/precessed/train.json
+/data/conll2003/precessed/valid.json
+/data/conll2003/precessed/metadata.json
+/data/weibo_ner/raw/
+/data/genia/raw/
+/data/CMeEE/CMeEE.py
+/data/ClueNER/raw/
+/data/
