@@ -1,6 +1,6 @@
 # README
 
-Code for "**End-to-End Entity Detection with Proposer and Regressor**".
+Code for "**End-to-End Entity Detection with Proposer and Regressor**". Details and paper please check [here](https://arxiv.org/abs/2210.10260v1).
 
 ![](./assets/framework.png)
 
