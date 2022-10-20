@@ -135,5 +135,13 @@ python main.py --dataset_name=conll2003 --evaluate=test --concat --pretrain_sele
 
 ## Reference
 
-If you have any questions related to the code or the paper or the copyright, please email `wenxr2119@mails.jlu.edu.cn`.
-
+If you have any questions related to the code or the paper or the copyright, please email `wenxr2119@mails.jlu.edu.cn`. 
+We would appreciate it if you cite our paper as following:
+```
+@article{wen2022detection,
+  title={End-to-End Entity Detection with Proposer and Regressor},
+  author={Xueru Wen, Changjiang Zhou, Haotian Tang, Luguang Liang, Yu Jiang, Hong Qi},
+  journal={arXiv preprint arXiv:2210.10260},
+  year={2022}
+}
+```
