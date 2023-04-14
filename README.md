@@ -1,6 +1,6 @@
 # README
 
-Code for "**End-to-End Entity Detection with Proposer and Regressor**". Details and paper please check [here](https://arxiv.org/abs/2210.10260v1).
+Code for "**End-to-End Entity Detection with Proposer and Regressor**". Details and paper please check [here](https://link.springer.com/article/10.1007/s11063-023-11201-8).
 
 ![](./assets/framework.png)
 
@@ -138,10 +138,21 @@ python main.py --dataset_name=conll2003 --evaluate=test --concat --pretrain_sele
 If you have any questions related to the code or the paper or the copyright, please email `wenxr2119@mails.jlu.edu.cn`. 
 We would appreciate it if you cite our paper as following:
 ```
-@article{wen2022detection,
-  title={End-to-End Entity Detection with Proposer and Regressor},
-  author={Xueru Wen, Changjiang Zhou, Haotian Tang, Luguang Liang, Yu Jiang, Hong Qi},
-  journal={arXiv preprint arXiv:2210.10260},
-  year={2022}
+@Article{Wen2023,
+author={Wen, Xueru
+and Zhou, Changjiang
+and Tang, Haotian
+and Liang, Luguang
+and Qi, Hong
+and Jiang, Yu},
+title={End-to-End Entity Detection with Proposer and Regressor},
+journal={Neural Processing Letters},
+year={2023},
+month={Apr},
+day={13},
+abstract={Named entity recognition is a traditional task in natural language processing. In particular, nested entity recognition receives extensive attention for the widespread existence of the nesting scenario. The latest research migrates the well-established paradigm of set prediction in object detection to cope with entity nesting. However, the manual creation of query vectors, which fail to adapt to the rich semantic information in the context, limits these approaches. An end-to-end entity detection approach with proposer and regressor is presented in this paper to tackle the issues. First, the proposer utilizes the feature pyramid network to generate high-quality entity proposals. Then, the regressor refines the proposals for generating the final prediction. The model adopts encoder-only architecture and thus obtains the advantages of the richness of query semantics, high precision of entity localization, and easiness of model training. Moreover, we introduce the novel spatially modulated attention and progressive refinement for further improvement. Extensive experiments demonstrate that our model achieves advanced performance in flat and nested NER, achieving a new state-of-the-art F1 score of 80.74 on the GENIA dataset and 72.38 on the WeiboNER dataset.},
+issn={1573-773X},
+doi={10.1007/s11063-023-11201-8},
+url={https://doi.org/10.1007/s11063-023-11201-8}
 }
 ```
