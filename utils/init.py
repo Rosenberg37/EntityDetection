@@ -1,5 +1,6 @@
 import logging
 import os
+import pathlib
 
 import flair
 import transformers
@@ -15,6 +16,7 @@ def init_logger(log_file=None):
     logger.setLevel(logging.INFO)
 
     if log_file and log_file != '':
+        os.makedirs(pathlib.Path(log_file).parent, exist_ok=True)
         file_handler = logging.FileHandler(log_file)
         file_handler.setFormatter(log_format)
         logger.addHandler(file_handler)
